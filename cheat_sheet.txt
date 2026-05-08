@@ -1,0 +1,29 @@
+=== МАТЕМАТИЧЕСКАЯ ШПАРГАЛКА ===
+
+ПРОИЗВОДНЫЕ:
+• (x^n)' = n·x^(n-1)
+• (sin x)' = cos x
+• (cos x)' = -sin x
+• (e^x)' = e^x
+• (ln x)' = 1/x
+
+ИНТЕГРАЛЫ:
+• ∫ x^n dx = x^(n+1)/(n+1) + C
+• ∫ 1/x dx = ln|x| + C
+• ∫ e^x dx = e^x + C
+• ∫ sin x dx = -cos x + C
+• ∫ cos x dx = sin x + C
+
+ПРЕДЕЛЫ:
+• lim(x→0) sin x/x = 1
+• lim(x→∞) (1+1/x)^x = e
+
+ТРИГОНОМЕТРИЯ:
+• sin² x + cos² x = 1
+• sin(2x) = 2 sin x cos x
+• cos(2x) = cos² x - sin² x
+
+КВАДРАТНОЕ УРАВНЕНИЕ:
+• ax² + bx + c = 0
+• D = b² - 4ac
+• x = (-b ± √D)/(2a)
