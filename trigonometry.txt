@@ -1,0 +1,14 @@
+ТРИГОНОМЕТРИЧЕСКИЕ ТОЖДЕСТВА
+
+ОСНОВНЫЕ:
+1. sin² x + cos² x = 1
+2. 1 + tg² x = sec² x
+3. 1 + ctg² x = csc² x
+
+ФОРМУЛЫ СЛОЖЕНИЯ:
+4. sin(x ± y) = sin x cos y ± cos x sin y
+5. cos(x ± y) = cos x cos y ∓ sin x sin y
+
+ФОРМУЛЫ ДВОЙНОГО УГЛА:
+6. sin 2x = 2 sin x cos x
+7. cos 2x = cos² x - sin² x = 2 cos² x - 1 = 1 - 2 sin² x
