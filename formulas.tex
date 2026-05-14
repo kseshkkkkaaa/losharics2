@@ -1,0 +1,98 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+
+\begin{document}
+
+\title{Mathematical Formulas in \LaTeX}
+\author{losharics}
+\date{\today}
+\maketitle
+
+\section{Basic Formulas}
+
+Inline formula: $\sin^2 x + \cos^2 x = 1$.
+
+Indices: $x_1$, $y^5$, $x_1^5$, $x_{ab}$.
+
+Polynomial: $f(x) = a_0 x^0 + a_1 x^1 + \dots + a_n x^n$.
+
+Fractions: $\frac{x}{5}$.
+
+Roots: $\sqrt{x}$, $\sqrt[3]{x}$.
+
+Sum and integral: $\sum_{i=0}^n a_i x^i$, $\int_{a}^{b} f(x) dx$.
+
+\section{Displayed Formulas}
+
+Numbered formula:
+\begin{equation}
+\int_{-\infty}^{+\infty} e^{-5x} dx = \frac{e^{-5x}}{-5} + C.
+\end{equation}
+
+Unnumbered formula:
+\begin{equation*}
+f(x) = \sum_{i=0}^n a_i x^i.
+\end{equation*}
+
+Limit formula:
+\begin{equation*}
+\lim_{x \to 0} \frac{\sin x}{x} = 1.
+\end{equation*}
+
+\section{Matrices}
+
+Matrix without brackets:
+\begin{equation*}
+\begin{matrix}
+2 & 2 & 8 \\
+6 & 7 & 1 \\
+4 & 8 & 8
+\end{matrix}
+\end{equation*}
+
+Matrix with square brackets:
+\begin{equation*}
+\begin{bmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33}
+\end{bmatrix}
+\end{equation*}
+
+Matrix with parentheses:
+\begin{equation*}
+\begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}
+\end{equation*}
+
+Determinant:
+\begin{equation*}
+\begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix} = ad - bc
+\end{equation*}
+
+\section{Systems of Equations}
+
+System with brace:
+\begin{equation*}
+\begin{cases}
+x + y = 7, \\
+6x - 7 = 42;
+\end{cases}
+\end{equation*}
+
+Piecewise function:
+\begin{equation*}
+f(x) = 
+\begin{cases}
+1, & \text{if } x = 0, \\
+\frac{1}{x}, & \text{otherwise}.
+\end{cases}
+\end{equation*}
+
+
+\end{document}
