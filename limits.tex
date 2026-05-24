@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Замечательные пределы}
+
+\begin{enumerate}
+    \item Первый замечательный предел:
+    \[
+    \lim_{x \to 0} \frac{\sin x}{x} = 1
+    \]
+    
+    \item Второй замечательный предел (первая форма):
+    \[
+    \lim_{x \to 0} (1 + x)^{\frac{1}{x}} = e
+    \]
+    
+    \item Второй замечательный предел (вторая форма):
+    \[
+    \lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e
+    \]
+\end{enumerate}
+
+\section*{Правило Лопиталя}
+
+Если при вычислении предела предела функций получается неопределенность вида $\left[\frac{0}{0}\right]$ или $\left[\frac{\infty}{\infty}\right]$, то предел отношения функций равен пределу отношения их производных:
+\[
+\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}
+\]
+
+\end{document}
