@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    overflow: hidden; 
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('first.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+.screen.active {
+    display: flex;
+}
+.card {
+    background: rgba(213, 221, 255, 0.411); 
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+}
+.card h2 {
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+    width: 100%; 
+}
+.btn-wrapper {
+    width: 45%;
+    height: 100%;
+    position: relative; 
+}
+.btn {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.1s ease, background-color 0.2s;
+}
+.btn:active {
+    transform: scale(0.95);
+}
+.btn-success {
+    background-color: #00ff15;
+    color: white;
+}
+.btn-success:hover {
+    background-color: #00dd10; 
+}
+.btn-danger {
+    background-color: #ff0000;
+    color: white;
+    position: absolute; 
+    z-index: 100;
+    left: 0; 
+    top: 0;
+    transition: left 0.2s ease-out, top 0.2s ease-out; 
+}
+.content-box {
+    background: rgba(235, 234, 255, 0.514);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s ease forwards; 
+}
+.content-box h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+.content-box p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.result-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
